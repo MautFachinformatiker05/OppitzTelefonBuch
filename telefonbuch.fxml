@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TelefonbuchController">
+   <children>
+      <Button fx:id="buttonNachschlagen" layoutX="413.0" layoutY="87.0" mnemonicParsing="false" onAction="#nachschlagen" text="Nachschlagen" />
+      <TextField fx:id="textFieldName" layoutX="66.0" layoutY="87.0" onAction="#onEnter" prefHeight="25.0" prefWidth="310.0" />
+      <Label fx:id="labelNamen" layoutX="66.0" layoutY="127.0" prefHeight="25.0" prefWidth="431.0" text="Namen" />
+      <Label layoutX="66.0" layoutY="14.0" text="Telefonbuch">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAdresse" layoutX="66.0" layoutY="164.0" prefHeight="17.0" prefWidth="431.0" text="Adresse" />
+      <Label fx:id="labelPlzUndOrt" layoutX="66.0" layoutY="202.0" prefHeight="17.0" prefWidth="431.0" text="PLZ und Ort" />
+      <Label fx:id="labelTelefonnummer" layoutX="66.0" layoutY="238.0" prefHeight="17.0" prefWidth="431.0" text="Telefonnummer" />
+   </children>
+</AnchorPane>
